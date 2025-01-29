@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    background-color: #858282; 
+    text-align: center;
+    color:white;
+
+}
+nav {
+    background-color: #858282;
+    color: white;
+    padding: 1rem 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 1rem 0;
+}
+h2, h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+section > .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.About p{
+    background-color: lightblue;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+.Education ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.Education ul li {
+    background-color: lightgrey;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.Skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.Skills ul li {
+    background-color: #c8e6c9;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.Workshops ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.Workshops ul li {
+    background-color: #ffe0b2;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.interns h3 {
+    font-size: 1.8rem;
+}
+.interns ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.interns ul li {
+    background-color: #d1c4e9;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.interns p {
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Contact p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+    .container {
+        width: 90%;
+    }
+}
