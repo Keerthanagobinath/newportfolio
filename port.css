@@ -14,9 +14,10 @@ body {
     margin: auto;
 }
 header {
-    background-color: #858282; 
+    background-color: #807d7d; 
     text-align: center;
     color:white;
+    line-height: 50px;
 
 }
 nav {
@@ -114,6 +115,8 @@ section > .container {
     font-size: 1.2rem;
     margin: 10px 0;
     text-align: center;
+    background-color: rgb(175, 250, 212);
+    border-radius: 5px;
 }
 footer {
     background-color: #333;
